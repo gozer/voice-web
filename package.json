@@ -18,13 +18,14 @@
     "node-static": "0.7.9",
     "pm2": "^2.4.6",
     "simple-git": "^1.72.0",
-    "walk": "^2.3.9"
-  },
-  "devDependencies": {
+    "walk": "^2.3.9",
     "@types/mongodb": "^2.2.2",
     "@types/node": "^7.0.18",
     "gulp-nodemon": "2.2.1",
     "gulp-typescript": "^3.1.6",
     "typescript": "^2.3.2"
+  },
+  "scripts": {
+    "start": "node ./node_modules/gulp/bin/gulp.js"
   }
 }

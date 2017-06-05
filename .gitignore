@@ -3,3 +3,9 @@ web/js/
 server/js/
 server/upload/
 _ignore/
+.elasticbeanstalk/
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
