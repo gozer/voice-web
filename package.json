@@ -32,7 +32,7 @@
     "js-md5": "^0.6.1",
     "mediaserver": "0.1.0",
     "mkdirp": "^0.5.1",
-    "mysql": "2.13.0",
+    "mysql": "2.14.0",
     "mysql2": "^1.4.2",
     "node-fetch": "^1.7.3",
     "node-random-name": "^1.0.1",
