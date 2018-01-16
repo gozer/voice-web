@@ -79,7 +79,8 @@
     "utf8": "^2.1.2",
     "walk": "^2.3.9",
     "webpack": "^3.7.1",
-    "webpack-merge": "^4.1.0"
+    "webpack-merge": "^4.1.0",
+    "snyk": "^1.68.1"
   },
   "devDependencies": {
     "bundlesize": "^0.15.3",
@@ -95,6 +96,9 @@
     "prettier": "yarn lint --fix",
     "start": "node scripts/dev-server.js",
     "start:prod": "node server/js/server.js",
-    "test": "jest && yarn build && bundlesize -f \"web/dist/*.js\" -s 100kb"
-  }
+    "test": "jest && yarn build && bundlesize -f \"web/dist/*.js\" -s 100kb",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
