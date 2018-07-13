@@ -33,8 +33,6 @@ module "load_balancer" {
   health_check_timeout             = 5
   health_check_healthy_threshold   = 3
   health_check_unhealthy_threshold = 3
-
-  ssl_cert_name_prefix = "${var.service_name}"
 }
 
 module "dns" {
