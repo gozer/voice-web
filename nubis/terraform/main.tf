@@ -9,7 +9,7 @@ module "worker" {
   elb           = "${module.load_balancer.name}"
   min_instances = 1
   max_instances = 4
-  instance_type = "t2.medium"
+  instance_type = "t2.small"
 
   # Wait up to 10 minutes for warming up (in seconds)
   health_check_grace_period = "600"
@@ -56,7 +56,7 @@ resource "aws_db_parameter_group" "slow_query_enabled" {
 }
 
 module "database" {
-  source                 = "github.com/nubisproject/nubis-terraform//database?ref=v2.2.0"
+  source                 = "github.com/nubisproject/nubis-terraform//database?ref=develop"
   region                 = "${var.region}"
   environment            = "${var.environment}"
   account                = "${var.account}"
