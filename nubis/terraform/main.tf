@@ -56,7 +56,7 @@ resource "aws_db_parameter_group" "slow_query_enabled" {
 }
 
 module "database" {
-  source                 = "github.com/nubisproject/nubis-terraform//database?ref=develop"
+  source                 = "github.com/gozer/nubis-terraform//database?ref=develop"
   region                 = "${var.region}"
   environment            = "${var.environment}"
   account                = "${var.account}"
