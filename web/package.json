@@ -67,7 +67,7 @@
     "webpack-cli": "^3.3.5"
   },
   "devDependencies": {
-    "file-loader": "^4.0.0",
+    "file-loader": "^4.2.0",
     "react-dev-utils": "^9.0.1",
     "webpack-bundle-analyzer": "^3.4.1"
   },
