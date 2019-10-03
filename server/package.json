@@ -60,7 +60,7 @@
   },
   "devDependencies": {
     "jest-matcher-utils": "^24.8.0",
-    "nodemon": "^1.19.1",
+    "nodemon": "^1.19.3",
     "ts-jest": "24.0.2",
     "tsc-watch": "^2.2.1"
   },
