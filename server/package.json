@@ -62,7 +62,7 @@
     "jest-matcher-utils": "^24.8.0",
     "nodemon": "^1.19.1",
     "ts-jest": "24.0.2",
-    "tsc-watch": "^2.2.1"
+    "tsc-watch": "^4.0.0"
   },
   "scripts": {
     "build": "tsc",
