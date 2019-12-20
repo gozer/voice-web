@@ -18,7 +18,7 @@
     "@types/redlock": "^3.0.4",
     "@types/request-promise-native": "^1.0.16",
     "@types/universal-analytics": "^0.4.3",
-    "aws-sdk": "^2.503.0",
+    "aws-sdk": "^2.594.0",
     "body-parser": "^1.19.0",
     "common": "*",
     "commonmark": "^0.29.0",
