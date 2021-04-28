@@ -1,0 +1,60 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "10:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: aws-sdk
+    versions:
+    - 2.831.0
+    - 2.839.0
+    - 2.841.0
+    - 2.842.0
+    - 2.847.0
+    - 2.850.0
+    - 2.853.0
+    - 2.855.0
+    - 2.856.0
+    - 2.857.0
+    - 2.864.0
+    - 2.871.0
+    - 2.873.0
+    - 2.874.0
+    - 2.875.0
+    - 2.876.0
+    - 2.878.0
+    - 2.886.0
+    - 2.887.0
+    - 2.890.0
+  - dependency-name: y18n
+    versions:
+    - 4.0.1
+  - dependency-name: downshift
+    versions:
+    - 6.1.0
+    - 6.1.1
+  - dependency-name: react-content-loader
+    versions:
+    - 6.0.1
+    - 6.0.2
+  - dependency-name: "@types/react-redux"
+    versions:
+    - 7.1.15
+  - dependency-name: react
+    versions:
+    - 17.0.1
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
+  - dependency-name: elliptic
+    versions:
+    - 6.5.3
+  - dependency-name: "@types/react-modal"
+    versions:
+    - 3.10.6
+  - dependency-name: handlebars
+    versions:
+    - 4.7.6
